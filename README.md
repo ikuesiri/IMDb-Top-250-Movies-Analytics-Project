@@ -68,3 +68,17 @@ IMDb-Top-250-Analytics/
 └── .                                     # (optional) .pbix file for Power BI
 
 
+IMDb-Top-250-Analytics/
+├── README.md                                                                      # Project documentation
+├── imdb_top_250_scraper.py    |    imdb_cleaning_notebook.ipynb                   # Selenium script for web scraping  # Jupyter Notebook for cleaning
+├── imdb_top_250.csv                                                               # Raw scraped data
+├── imdb_cleaned.csv                                                               # Data after cleaning in Pandas
+├── imdb_final_power_query.csv                                                     # Final version used in Power BI                                                
+├── sql_script.sql                                                                 # SQL script to create and insert into the DB
+├── requirements.txt                                                               # Python dependencies (e.g., selenium, pandas
+├── IMDb_Top_250_Project_Report_Updated.pptx                                       # Final report
+├── screenshots/                                                                   # Supporting visuals
+│ ├── dashboard_page1.png                                                          # Page 1 of Power BI dashboard
+│ ├── dashboard_page2.png                                                          # Page 2 of Power BI dashboard
+│ └── power_query_steps.png                                                        # Screenshot of Power Query transformation steps
+└── .                                                                              # (optional) .pbix file for Power 
