@@ -49,36 +49,18 @@ To uncover insights and trends from IMDb’s Top 250 movies by scraping, cleanin
 
 ## 📂 Project Structure
 
-IMDb-Top-250-Analytics/
-├── imdb_top_250_scraper.py               # Selenium script for web scraping
-├── imdb_top_250.csv                      # Raw scraped data
-├── imdb_cleaned.csv                      # Data after cleaning in Pandas
-├── imdb_final_power_query.csv            # Final version used in Power BI
-├── imdb_cleaning_notebook.ipynb          # Jupyter Notebook for cleaning & SQL loading
-├── sql_script.sql                        # SQL script to create and insert into the DB
-├── requirements.txt                      # Python dependencies (e.g., selenium, pandas)
-├── .gitignore                            # Git ignore rules
-├── README.md                             # Project documentation
-├── IMDb_Top_250_Project_Report.pptx      # Initial project report
-├── IMDb_Top_250_Project_Report_Updated.pptx  # Final polished report
-├── screenshots/                          # Supporting visuals
-│   ├── dashboard_page1.png               # Page 1 of Power BI dashboard
-│   ├── dashboard_page2.png               # Page 2 of Power BI dashboard
-│   └── power_query_steps.png             # Screenshot of Power Query transformation steps
-└── .                                     # (optional) .pbix file for Power BI
-
 
 IMDb-Top-250-Analytics/
-├── README.md                                                                      # Project documentation
-├── imdb_top_250_scraper.py    |    imdb_cleaning_notebook.ipynb                   # Selenium script for web scraping  # Jupyter Notebook for cleaning
-├── imdb_top_250.csv                                                               # Raw scraped data
-├── imdb_cleaned.csv                                                               # Data after cleaning in Pandas
-├── imdb_final_power_query.csv                                                     # Final version used in Power BI                                                
-├── sql_script.sql                                                                 # SQL script to create and insert into the DB
-├── requirements.txt                                                               # Python dependencies (e.g., selenium, pandas
-├── IMDb_Top_250_Project_Report_Updated.pptx                                       # Final report
-├── screenshots/                                                                   # Supporting visuals
-│ ├── dashboard_page1.png                                                          # Page 1 of Power BI dashboard
-│ ├── dashboard_page2.png                                                          # Page 2 of Power BI dashboard
-│ └── power_query_steps.png                                                        # Screenshot of Power Query transformation steps
-└── .                                                                              # (optional) .pbix file for Power 
+- README.md                                                                      # Project documentation
+-  imdb_top_250_scraper.py    |    imdb_cleaning_notebook.ipynb                   # Selenium script for web scraping  # Jupyter Notebook for cleaning
+-  mdb_top_250.csv                                                               # Raw scraped data
+-  db_cleaned.csv                                                               # Data after cleaning in Pandas
+-  mdb_final_power_query.csv                                                     # Final version used in Power BI
+-  ql_script.sql                                                                 # SQL script to create and insert into the DB
+-  requirements.txt                                                               # Python dependencies (e.g., selenium, pandas
+-  MDb_Top_250_Project_Report_Updated.pptx                                       # Final report
+  -  screenshots/                                                                   # Supporting visuals
+  -  dashboard_page1.png                                                          # Page 1 of Power BI dashboard
+  -  dashboard_page2.png                                                          # Page 2 of Power BI dashboard
+  -  power_query_steps.png                                                        # Screenshot of Power Query transformation steps
+- .                                                                              # (optional) .pbix file for Power 
